@@ -91,11 +91,43 @@ header > div {
     background-color: #0369a1;
 }
 
-
-
 .sidebar {
+    background-color: #0369a1;
+    color: #f0f9ff;
+    font-size: 20px;
     grid-row: 1 / 4;
     padding: 50px;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    gap: 15px;
+}
+
+.sidebar li {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.sidebar li:hover {
+    background-color: #082f49;
+    cursor: pointer;
+}
+
+.sidebar-icon {
+    height: 30px;
+    fill: #f0f9ff;
+    width: 30px;
+}
+
+svg:root {
+    fill: #f0f9ff;
 }
 
 .logo, #main {
