@@ -153,15 +153,41 @@ nav ul {
 }
 
 .card {
+    background-color: #f0f9ff;
+    border: 2px solid #0369a1;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(204,204,204,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(204,204,204,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(204,204,204,0.75);
     display: grid;
     margin: 25px;
     padding: 15px;
     width: 90%;
+
+    
+}
+
+.card-title {
+    color: #082f49;
+    margin-bottom: 20px;
 }
 
 .card-actions {
     align-self: flex-end;
+    display: flex;
+    gap: 10px;
     justify-self: end;
+}
+
+.card-action {
+    height: 35px;
+    opacity: 0.6;
+    width: 35px;
+}
+
+.card-action:hover{
+    opacity: 1;
+    cursor: pointer;
 }
 
 .announcements, .trending {
