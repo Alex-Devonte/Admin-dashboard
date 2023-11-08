@@ -216,4 +216,19 @@ nav ul {
 
 .trending {
     grid-column-start: 2;
+    padding: 10px;
+}
+
+.trend {
+    background-color: #bae6fd;
+    border-radius: 5px;
+    color: #082f49;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    margin: 15px 0;
+    padding: 5px;
+}
+
+.trend .profile-icon {
+    grid-row: 1 / 3;
 }
